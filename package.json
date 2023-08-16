@@ -1,0 +1,27 @@
+{
+  "name": "@sereins/packaging",
+  "version": "1.0.3",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+     "dist"
+     ],
+     "repository": {
+       "type": "git",
+      "url": "git+https://github.com/Haomanman3/work-demo"
+      },
+  "publishConfig": {
+     "access": "public",
+    "registry": "https://registry.npmjs.org/"
+    },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
